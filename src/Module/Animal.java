@@ -13,6 +13,14 @@ public class Animal {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return name +
+                "," + type +
+                "," + area +
+                "," + id;
+    }
+
     public int getId() {
         return id;
     }

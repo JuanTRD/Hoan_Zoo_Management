@@ -108,10 +108,10 @@ public class Menu {
                     animalManager.removeAnimal();
                     break;
                 case 10:
-                    ticketManager.getProfitTicket();
+                    System.out.println(ticketManager.getProfitTicket());
                     break;
                 case 11:
-                    ticketManager.getTicketCount();
+                    System.out.println(ticketManager.getTicketCount());
                     break;
                 case 12:
                     accountManager.writeAccount();
@@ -175,7 +175,7 @@ public class Menu {
                     ticketManager.addTicket(ticketManager.createTicket());
                     break;
                 case 3:
-                    ticketManager.getTicketCount();
+                    System.out.println(ticketManager.getTicketCount());
                     break;
                 case 4:
                     accountManager.setPassword(username);

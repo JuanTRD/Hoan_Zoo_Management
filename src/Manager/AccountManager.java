@@ -79,6 +79,7 @@ public class AccountManager {
     }
     public void displayAccount(){
         for(Account account : accounts){
+            System.out.println("Username,Password,Role,Id Role,Staff,Salary,id");
             System.out.println(account.toString());
         }
     }
